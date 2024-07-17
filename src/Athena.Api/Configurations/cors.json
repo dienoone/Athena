@@ -1,0 +1,7 @@
+﻿{
+  "CorsSettings": {
+    "Angular": "http://localhost:4200",
+    "Blazor": "https://localhost:5002;https://www.mydomain.my;https://athena-teacher.vercel.app;https://athena-student.vercel.app",
+    "React": "http://localhost:3000"
+  }
+}

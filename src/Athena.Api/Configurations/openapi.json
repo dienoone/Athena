@@ -1,0 +1,20 @@
+﻿{
+  "SwaggerSettings": {
+    "Enable": true,
+    "Title": ".NET 6.0 WebAPI - Athena",
+    "GroupNames": [
+      "Teacher",
+      "Student",
+      "Dashboard",
+      "Auth"
+    ],
+    "Version": "v1",
+    "Description": "Athena Template for .NET 6.0 WebApi",
+    "ContactName": "Shiko",
+    "ContactEmail": "shiko@gmail.com",
+    "ContactUrl": "https://linkedin.com/in/shiko",
+    "License": true,
+    "LicenseName": "MIT License",
+    "LicenseUrl": "https://Google.com"
+  }
+}

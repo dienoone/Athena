@@ -1,0 +1,11 @@
+﻿global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.DependencyInjection;
+global using Athena.Domain.Common.Contracts;
+global using Athena.Application.Common.Interfaces;
+global using Athena.Application.Common.Events;
+global using Athena.Shared.Events;
+global using MediatR;
+global using Athena.Domain.Entities;
+global using Microsoft.EntityFrameworkCore;
+global using Athena.Application.Common.Persistence;
+global using Athena.Domain.Common.Events;

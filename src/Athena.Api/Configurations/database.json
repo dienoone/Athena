@@ -1,0 +1,7 @@
+﻿{
+  "DatabaseSettings": {
+    "DBProvider": "mssql",
+    "ConnectionString": "Server=tcp:athenaserver.database.windows.net,1433;Initial Catalog=AthenaDB;User Id=AthenaAdmin;password=AthenaDB30;"
+    
+  }
+}

@@ -1,0 +1,1 @@
+﻿global using Athena.Domain.Common.Contracts;

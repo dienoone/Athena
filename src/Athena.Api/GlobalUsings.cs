@@ -1,0 +1,10 @@
+﻿global using Athena.Application.Common.Models;
+global using Athena.Infrastructure.Auth.Permissions;
+global using Athena.Infrastructure.OpenApi;
+global using Athena.Shared.Authorization;
+global using Microsoft.AspNetCore.Authorization;
+global using Microsoft.AspNetCore.Mvc;
+global using NSwag.Annotations;
+global using System.Threading.Tasks;
+global using System.Collections.Generic;
+global using System.Threading;

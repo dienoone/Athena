@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <Compile Remove="Features\Pages\**" />
+    <EmbeddedResource Remove="Features\Pages\**" />
+    <None Remove="Features\Pages\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Athena.Domain\Athena.Domain.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Ardalis.Specification" Version="6.0.1" />
+		<PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="10.4.0" />
+		<PackageReference Include="Mapster" Version="7.3.0" />
+		<PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
+		<PackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="6.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Localization" Version="6.0.5" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Features\StudentFeatures\Base\Queries\" />
+	  <Folder Include="Features\TeacherFeatures\Notifications\Dtos\" />
+	</ItemGroup>
+	
+</Project>

@@ -1,0 +1,10 @@
+﻿{
+  "MailSettings": {
+    "DisplayName": "Athena Students",
+    "From": "Athena",
+    "Host": "smtp.gmail.com",
+    "Password": "qexgiseozizwubxz",
+    "Port": 587,
+    "UserName": "mosherifofficial@gmail.com"
+  }
+}
